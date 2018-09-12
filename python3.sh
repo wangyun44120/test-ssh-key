@@ -6,7 +6,7 @@ pkg install python python-dev clang fftw libzmq libzmq-dev freetype freetype-dev
 pip install --upgrade pip
 
 #数据分析
-pkg install curl -y
+pkg install curl vim -y
 pip install --upgrade pip
 curl -L https://its-pointless.github.io/setup-pointless-repo.sh | sh
 pkg install numpy scipy -y
